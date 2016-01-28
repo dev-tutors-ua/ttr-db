@@ -176,7 +176,7 @@ class TTR_db {
 	//Remove Tutor 
 	public static function rm_tutor($id) {
 		global $wpdb;
-		$wpdb->delete("{$wpdb->prefix}tutors", ['id' => $id], ['%d']);
+		$wpdb->delete("{$wpdb->prefix}tutors", array('id' => $id), array('%d'));
 	}
 
 	//Get Rows Count

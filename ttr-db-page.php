@@ -2,8 +2,8 @@
 
 	class TTR_db_page {
 		
-		public static $tutor = [];
-		public static $tutors = [];
+		public static $tutor = array();
+		public static $tutors = array();
 		public static $tutors_length = 0;
 		public static $cur_id = -1;
 
@@ -50,7 +50,7 @@
 
 				return true;
 			} else {
-				self::$tutor = [];
+				self::$tutor = array();
 				self::$cur_id = -1;
 
 				return false;
