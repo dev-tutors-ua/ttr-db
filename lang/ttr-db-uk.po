@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-01-27 21:00+0200\n"
+"PO-Revision-Date: 2016-01-27 21:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ttr-db-admin-tbl.php\n"
+"X-Poedit-SearchPath-1: ttr-db-admin.php\n"
+"X-Poedit-SearchPath-2: ttr-db-widget.php\n"
+"X-Poedit-SearchPath-3: ttr-db.php\n"
+"X-Poedit-SearchPath-4: ttr-db-page.php\n"
+
+#: ttr-db-admin-tbl.php:14
+msgid "Tutor"
+msgstr "Тьютор"
+
+#: ttr-db-admin-tbl.php:15
+msgid "Tutors"
+msgstr "Тьютори"
+
+#: ttr-db-admin-tbl.php:24
+msgid "No Tutors Found"
+msgstr "Тьюторів Не Знайдено"
+
+#: ttr-db-admin-tbl.php:42
+msgid "Edit"
+msgstr "Редагувати"
+
+#: ttr-db-admin-tbl.php:43 ttr-db-admin-tbl.php:75
+msgid "Delete"
+msgstr "Видалити"
+
+#: ttr-db-admin-tbl.php:63
+msgid "Name"
+msgstr "Ім’я"
+
+#: ttr-db-admin-tbl.php:64 ttr-db-admin.php:271 ttr-db-widget.php:48
+msgid "Age"
+msgstr "Клас"
+
+#: ttr-db-admin-tbl.php:65 ttr-db-admin.php:251 ttr-db-widget.php:25
+msgid "Province"
+msgstr "Область"
+
+#: ttr-db-admin-tbl.php:66 ttr-db-admin.php:261 ttr-db-widget.php:33
+msgid "City"
+msgstr "Місто"
+
+#: ttr-db-admin-tbl.php:67 ttr-db-admin.php:287 ttr-db-widget.php:39
+msgid "Subject"
+msgstr "Предмет"
+
+#: ttr-db-admin.php:217
+msgid "Add Tutor"
+msgstr "Додати Тьютора"
+
+#: ttr-db-admin.php:225
+msgid "Last Name"
+msgstr "Прізвище"
+
+#: ttr-db-admin.php:233
+msgid "First Name"
+msgstr "Ім’я"
+
+#: ttr-db-admin.php:241
+msgid "Middle Name"
+msgstr "По Батькові"
+
+#: ttr-db-admin.php:255 ttr-db-admin.php:275 ttr-db-admin.php:279
+#: ttr-db-admin.php:292 ttr-db-admin.php:299 ttr-db-widget.php:27
+#: ttr-db-widget.php:42 ttr-db-widget.php:51
+msgid "-- SELECT --"
+msgstr "Виберіть"
+
+#: ttr-db-admin.php:310
+msgid "Description"
+msgstr "Опис"
+
+#: ttr-db-admin.php:321 ttr-db-admin.php:369
+msgid "Add"
+msgstr "Додати"
+
+#: ttr-db-admin.php:325 ttr-db-admin.php:382
+msgid "Update"
+msgstr "Оновити"
+
+#: ttr-db-admin.php:341 ttr-db.php:64
+msgid "Tutor DB"
+msgstr "Картотека Тьюторів"
+
+#: ttr-db-admin.php:342
+msgid "Add New"
+msgstr "Додати Тьютора"
+
+#: ttr-db-admin.php:343 ttr-db-admin.php:366
+msgid "Subjects Editor"
+msgstr "Редактор Предметів"
+
+#: ttr-db-admin.php:421
+msgid "Import CSV"
+msgstr "Імпортувати CSV Файл"
+
+#: ttr-db-admin.php:423 ttr-db-admin.php:442
+msgid "Select CSV File"
+msgstr "Виберіть CSV Файл"
+
+#: ttr-db-admin.php:424
+msgid "Media"
+msgstr "Медіа"
+
+#: ttr-db-admin.php:444
+msgid "Select"
+msgstr "Вибрати"
+
+#: ttr-db-page.php:41
+msgid "Results Not Found"
+msgstr "Результатів Не Знайдено"
+
+#: ttr-db-page.php:64 ttr-db-page.php:70
+msgid "Tutor Not Found"
+msgstr "Тьюторів Не Знайдено"
+
+#: ttr-db-page.php:91 ttr-db-widget.php:8
+msgid "Tutor Search"
+msgstr "Пошук Тьюторів"
+
+#: ttr-db-widget.php:9
+msgid "Sidebar Tutor Search Widget"
+msgstr "Віджет Пошуку Тьютоів"
+
+#: ttr-db-widget.php:17
+msgid "Find Tutor"
+msgstr "Знайти Тьютора"
+
+#: ttr-db-widget.php:56
+msgid "Search"
+msgstr "Пошук"
