@@ -10,11 +10,11 @@ class Tutor_list extends WP_List_Table {
 
 	public function __construct() {
 		
-		parent::__construct([
+		parent::__construct(array(
 			'singular' => __("Tutor", "ttr-db"),
 			'plural' => __("Tutors", "ttr-db"),
 			'ajax' => false
-		]);
+		));
 	}
 
 	/* DISPLAY METHODS */
@@ -38,10 +38,10 @@ class Tutor_list extends WP_List_Table {
 		$url_del = sprintf("?page=%s&action=%s&id=%s", esc_attr($_REQUEST['page']), 'del-itm', $item['id']);
 		$url_del = wp_nonce_url($url_del, 'del-tutor_'.$item['id']);
 
-		$actions = [
+		$actions = array(
 			"edit" => sprintf("<a href=\"?page=%s&type=%s&id=%s\">".__("Edit", "ttr-db")."</a>", esc_attr($_REQUEST['page']), 'edit', $item['id']),
 			"delete" => "<a href=\"{$url_del}\">".__("Delete","ttr-db")."</a>"
-		];
+		);
 
 		return $name.$this->row_actions($actions);
 	}
@@ -58,22 +58,22 @@ class Tutor_list extends WP_List_Table {
 
 	// @returns column slugs and titles
 	function get_columns() {
-		$columns = [
+		$columns = array(
 			'cb' => "<input type=\"checkbox\" >",
 			'name' => __("Name", "ttr-db"),
 			'age' => __("Age", "ttr-db"),
 			'province' => __("Province","ttr-db"),
 			'city' => __("City","ttr-db"),
 			'subject' => __("Subject", "ttr-db")
-		];
+		);
 		return $columns;
 	}
 
 	// @returns row actions array
 	public function get_bulk_actions() {
-		$act = [
+		$act = array(
 			'bulk-delete' => __('Delete','ttr-db')
-		];
+		);
 		return $act;
 	}
 
@@ -146,8 +146,8 @@ class Tutor_list extends WP_List_Table {
 		/* Generate Headers */
 		$this->_column_headers = array(
 			$this->get_columns(), // (Array) Column Slugs and Titles
-			[], // (Array) Hidden Fields
-			[], // (Array) Sortable Columns
+			array(), // (Array) Hidden Fields
+			array(), // (Array) Sortable Columns
 			'fname' // (String) Slug of column which displays actions (edit, view, etc.)
 		);
 
@@ -158,10 +158,10 @@ class Tutor_list extends WP_List_Table {
 		$per_page = 10; //TODO make changable
 		$cur_page = $this->get_pagenum();
 		
-		$this->set_pagination_args([
+		$this->set_pagination_args(array(
 			'total_items' => TTR_db::get_count(),
 			'per_page' => $per_page
-		]);
+		));
 
 		// Sets Tutors For Database
 		$this->items = TTR_db::get_tutors($per_page, $cur_page);

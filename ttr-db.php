@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Tutor Database 
  * Description: Stores, searches tutors from database
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Fedor Bobylev
  * Author URI: http://techblogogy.tk/
  * GitHub Plugin URI: https://github.com/dev-tutors-ua/ttr-db
